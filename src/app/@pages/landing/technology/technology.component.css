@@ -1,0 +1,11 @@
+.technology-grid{
+    margin-top: 10em;
+    display: flex;
+    margin-bottom: 3em;
+    justify-content: space-evenly;
+}
+.technology-element{
+    order: 1;
+    
+}
+

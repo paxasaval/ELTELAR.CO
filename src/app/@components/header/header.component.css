@@ -1,0 +1,17 @@
+.banner-logo img{
+}
+.navbar{
+    display: flex;
+    align-content: center;
+}
+.navbar nav{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.navbar a{
+    order:1;
+    width: auto;
+}

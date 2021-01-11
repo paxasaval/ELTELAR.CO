@@ -1,0 +1,14 @@
+.product-grid{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+.grid-card{
+    width: 30%;
+    display: flex;
+    order: 2;
+    align-items: center;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 3em;
+}
