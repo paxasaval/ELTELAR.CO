@@ -27,6 +27,12 @@ import { HttpClientModule } from '@angular/common/http';
     RouterModule,
     ComponentsModule,
     HttpClientModule
+  ],
+  exports:[
+    HomeComponent,
+    AboutComponent,
+    TechnologyComponent,
+    ProductComponent
   ]
 })
 export class PagesModule { }

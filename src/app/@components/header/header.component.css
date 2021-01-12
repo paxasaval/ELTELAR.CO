@@ -2,7 +2,11 @@
 }
 .navbar{
     display: flex;
-    align-content: center;
+    align-content: center; 
+}
+.fixed{
+    position: fixed;
+    z-index: 1;
 }
 .navbar nav{
     display: flex;

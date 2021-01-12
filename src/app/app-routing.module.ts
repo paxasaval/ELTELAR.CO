@@ -3,10 +3,15 @@ import { TechnologyComponent } from './@pages/landing/technology/technology.comp
 import { ProductComponent } from './@pages/landing/product/product.component';
 import { HomeComponent } from './@pages/landing/home/home.component';
 import { LandingComponent } from './@pages/landing/landing.component';
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
+//import { LandingComponentPrueba } from './@pages/xzc/landing.component';
 
 const routes: Routes = [
+  {
+    path:'landing',
+    component: LandingComponent
+  },
   {
     path:'',
     component: LandingComponent,
@@ -33,7 +38,7 @@ const routes: Routes = [
         component: AboutComponent
       }
     ]
-  }
+  },
 ];
 
 @NgModule({
