@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
 
 .container{
     width: 100%;
@@ -9,12 +9,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 5em;
+    scroll-behavior: smooth;
 }
 .section{
-    margin-top: 2em;
+    padding-top: 3em;
     margin-bottom: 1em;
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
 
 .main-grid{

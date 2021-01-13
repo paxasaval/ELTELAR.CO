@@ -1,11 +1,11 @@
 <mat-toolbar class="fixed" color="primary">
         <mat-toolbar-row class=navbar color="primary">
                 <nav>
-                    <a mat-button href="/landing#home" routerLinkActive="active">Quienes Somos</a>
-                    <a mat-button href="/landing#about" routerLinkActive="active">Qué hacemos</a>
-                    <a class="banner-logo" routerLink="/landing#home"><img src="./../../../assets/logo.png" alt="" height="40"></a>
-                    <a mat-button href="/landing#products" routerLinkActive="active">Productos</a>
-                    <a mat-button href="/landing#technology" routerLinkActive="active">Tecnologia</a>
+                    <a  mat-button (click)="toHome()" >Quienes Somos</a>
+                    <a  mat-button (click)="toAbout()" routerLinkActive="active">Qué hacemos</a>
+                    <a  class="banner-logo" (click)="toHome()" ><img src="./../../../assets/logo.png" alt="" height="40"></a>
+                    <a  mat-button (click)="toProducts()" routerLinkActive="active">Productos</a>
+                    <a  mat-button (click)="toTechnology()" routerLinkActive="active">Tecnologia</a>
                 </nav>
         </mat-toolbar-row>
 </mat-toolbar>

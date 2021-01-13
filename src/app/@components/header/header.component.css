@@ -8,6 +8,9 @@
     position: fixed;
     z-index: 1;
 }
+nav a.active{
+    background-color:cornflowerblue;
+}
 .navbar nav{
     display: flex;
     align-content: center;
@@ -18,4 +21,5 @@
 .navbar a{
     order:1;
     width: auto;
+    scroll-behavior: smooth;
 }
