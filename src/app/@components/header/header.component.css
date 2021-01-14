@@ -23,3 +23,7 @@ nav a.active{
     width: auto;
     scroll-behavior: smooth;
 }
+.header-row{
+    align-content: center;
+    width: 100%;
+}

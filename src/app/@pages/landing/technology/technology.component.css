@@ -1,11 +1,37 @@
 .technology-grid{
-    margin-top: 10em;
+    margin-top: 3em;
     display: flex;
     margin-bottom: 3em;
     justify-content: space-evenly;
 }
 .technology-element{
     order: 1;
-    
+}
+.arrow{
+    padding-top: 3em;
+}
+.arrow-5 {
+	/* more triangle */
+	position: relative;
+	height: 10px; width: 10px;
+	border: 20px solid;
+	border-color: 
+		darkcyan
+		darkcyan
+		transparent
+		transparent;
+	transform: rotate(45deg); 
+}
+
+.arrow-5:before {
+	content: '';
+	position: absolute;
+	top: -2px; right: -5px;
+	display: block;
+	height: 30px; width: 40px;
+	background-color: darkcyan;
+	transform: 
+		rotate(-45deg) 
+		translate(2px, 1px);
 }
 
