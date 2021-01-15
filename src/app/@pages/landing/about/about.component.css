@@ -1,3 +1,11 @@
+.blob-2 {
+   top: 25em;
+   left: 65em;
+}
+.blob-3{
+   top: 50em;
+   left: 2em;
+}
 .main-grid{
     margin-top: 0em;
 }
@@ -29,6 +37,4 @@
 .circular{
     border-radius: 50%;
 }
-.line{
-    width: ;
-}
+

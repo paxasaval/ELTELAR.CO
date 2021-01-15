@@ -2,7 +2,13 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
-
+.blob {
+   position: absolute;
+   fill: #023F92;
+   width: 50vmax;
+   z-index: -1;   animation: move 15s ease-in-out infinite;
+   transform-origin: 50% 50%;
+}
 .container{
     width: 100%;
     padding-right: 0px;

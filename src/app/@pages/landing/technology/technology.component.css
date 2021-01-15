@@ -1,14 +1,23 @@
+.blob-5 {
+   top: 125em;
+   left: 10em;
+}
 .technology-grid{
     margin-top: 3em;
     display: flex;
     margin-bottom: 3em;
-    justify-content: space-evenly;
+	justify-content: space-evenly;
+	align-content: center;
+	align-items: center;
 }
 .technology-element{
     order: 1;
 }
+.technology-element img{
+	height: 150px;
+}
 .arrow{
-    padding-top: 3em;
+    
 }
 .arrow-5 {
 	/* more triangle */
@@ -33,5 +42,9 @@
 	transform: 
 		rotate(-45deg) 
 		translate(2px, 1px);
+}
+.back{
+	position: relative;
+	z-index: -2;
 }
 

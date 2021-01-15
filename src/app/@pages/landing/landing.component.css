@@ -1,0 +1,9 @@
+.blob {
+   position: absolute;
+   top: 0;
+   left: 0;
+   fill: #023F92;
+   width: 50vmax;
+   z-index: -1;   animation: move 15s ease-in-out infinite;
+   transform-origin: 50% 50%;
+}
