@@ -32,8 +32,8 @@
 	height: 10px; width: 10px;
 	border: 20px solid;
 	border-color:
-		#2DA9DD
-		#2DA9DD
+		#64c9a9
+		#64c9a9
 		transparent
 		transparent;
 	transform: rotate(45deg);
@@ -45,12 +45,9 @@
 	top: -2px; right: -5px;
 	display: block;
 	height: 30px; width: 40px;
-	background-color: #2DA9DD;
+	background-color: #64c9a9;
 	transform:
 		rotate(-45deg)
 		translate(2px, 1px);
 }
-.back{
-	position: relative;
-	z-index: -2;
-}
+
