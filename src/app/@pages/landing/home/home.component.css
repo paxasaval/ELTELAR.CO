@@ -10,14 +10,16 @@
     transition: transform .5s ease;
     border-radius: 11%;
 }
-
+.grid-element p {
+  font-size: 1.3em;
+  text-align: justify;
+}
 img {
   -moz-box-shadow:    3px 3px 5px 6px #ccc;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
   box-shadow:         3px 3px 5px 6px #ccc;
   overflow: hidden;
 }
-
 img:hover {
 transform: scale(1.05);
 }
