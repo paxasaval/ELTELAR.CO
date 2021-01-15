@@ -15,6 +15,10 @@
     margin-left: 3em;
     margin-right: 3em;
     margin-bottom: 3em;
+    transition: transform .5s ease;
+}
+.grid-card:hover{
+    transform: scale(1.05);
 }
 .grid-element-big{
     justify-content: center;
