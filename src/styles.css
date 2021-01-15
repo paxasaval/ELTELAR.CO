@@ -34,7 +34,9 @@ body { margin: 0; font-family: 'Open Sans', sans-serif;background-color: #2da9dd
     margin-bottom: 0em;
 }
 
-.main-grid p{
+
+
+.grid-element-big p{
     padding-right: 3em;
     padding-left: 2em;
 }
@@ -68,5 +70,6 @@ body { margin: 0; font-family: 'Open Sans', sans-serif;background-color: #2da9dd
 
 .grid-element p{
     padding-left: 4em;
+    padding-right: 4em;
     text-align: justify;
 }

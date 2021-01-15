@@ -12,7 +12,7 @@
     width: 30%;
     display: flex;
     order: 2;
-    align-items: center;
+    align-items: baseline;
     margin-left: 3em;
     margin-right: 3em;
     margin-bottom: 3em;
@@ -31,4 +31,9 @@
     margin-top: 0em;
     margin-bottom: 1em;
     font-size: 1.3em;
+}
+
+.mat-card-image{
+    width: 500px;
+    height: 250px;
 }
