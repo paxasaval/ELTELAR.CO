@@ -9,6 +9,7 @@
     overflow: hidden;
     transition: transform .5s ease;
     border-radius: 11%;
+    z-index: 1;
 }
 .grid-element p {
   font-size: 1.3em;

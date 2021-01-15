@@ -10,7 +10,6 @@
     margin-top: 0em;
 }
 .grid-element{
-    height: 300px;
     z-index: 1;
 }
 .grid-element p {
@@ -47,4 +46,11 @@
 }
 .circular:hover{
     transform: scale(1.10);
+}
+
+.wrap-section{
+    padding-bottom: 0em;
+    padding-top: 0em;
+    margin-bottom: 0em;
+    margin-top: 0em;
 }

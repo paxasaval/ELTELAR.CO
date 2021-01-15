@@ -9,14 +9,19 @@ import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 
 const routes: Routes = [
   {
-    path:'Home',
-    component: LandingComponent
-  },
-  {
     path: '',
     redirectTo: '/Home',
     pathMatch: 'full'
   },
+  {
+    path:'home',
+    component: LandingComponent
+  },
+  {
+    path:'Home',
+    component: LandingComponent
+  },
+
 ];
 
 @NgModule({
