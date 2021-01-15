@@ -17,6 +17,9 @@
     margin-bottom: 3em;
     transition: transform .5s ease;
 }
+.grid-card p {
+    font-size: 1.2em;
+}
 .grid-card:hover{
     transform: scale(1.05);
 }
@@ -24,4 +27,5 @@
     justify-content: center;
     margin-top: 0em;
     margin-bottom: 1em;
+    font-size: 1.3em;
 }

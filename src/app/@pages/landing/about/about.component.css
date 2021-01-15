@@ -12,11 +12,12 @@
 .grid-element{
     height: 300px;
 }
-
+.grid-element p {
+  font-size: 1.2em;
+}
 .grid-img{
     align-items: baseline;
 }
-
 .element-img{
     width: 50%;
     display: flex;
@@ -45,4 +46,3 @@
 .circular:hover{
     transform: scale(1.10);
 }
-

@@ -20,6 +20,9 @@
 .technology-element img{
 	height: 150px;
 }
+.grid-element-big p {
+  font-size: 1.3em;
+}
 .arrow{
 
 }
