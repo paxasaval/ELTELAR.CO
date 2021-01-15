@@ -2,8 +2,14 @@
    position: absolute;
    top: 0;
    left: 0;
-   fill: #023F92;
+   fill: #64C9A9;
    width: 50vmax;
    z-index: -1;   animation: move 15s ease-in-out infinite;
    transform-origin: 50% 50%;
+}
+.bg-1{
+   background-color: #f8f8f8;
+}
+.bg-2{
+   background-color: #ebebeb;
 }

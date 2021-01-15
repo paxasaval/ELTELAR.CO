@@ -4,9 +4,9 @@ html, body { height: 100%; }
 body { margin: 0; font-family: 'Open Sans', sans-serif;background-color: #2da9dd;} 
 .blob {
    position: absolute;
-   fill: #023F92;
-   width: 50vmax;
-   z-index: -1;   animation:;
+   fill: #64C9A9;
+   width: 55%;
+   z-index: 0; 
    transform-origin: 50% 50%;
 }
 .container{
@@ -21,6 +21,9 @@ body { margin: 0; font-family: 'Open Sans', sans-serif;background-color: #2da9dd
     padding-bottom: 0em;
 }
 
+.section p{
+    z-index: 1;
+}
 .main-grid{
     margin-top: 1em;
     display: flex;

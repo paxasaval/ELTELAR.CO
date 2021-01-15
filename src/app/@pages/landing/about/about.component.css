@@ -1,22 +1,24 @@
 .blob-2 {
-   top: 25em;
-   left: 65em;
+   top: 0em;
+   left: 40em;
 }
 .blob-3{
-   top: 50em;
-   left: 2em;
+   top: 48em;
+   left: -1em;
 }
 .main-grid{
     margin-top: 0em;
 }
 .grid-element{
     height: 300px;
+    z-index: 1;
 }
 .grid-element p {
   font-size: 1.15em;
 }
 .grid-img{
     align-items: baseline;
+    z-index: 1;
 }
 .element-img{
     width: 50%;

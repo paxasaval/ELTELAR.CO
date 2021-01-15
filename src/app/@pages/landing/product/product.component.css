@@ -1,6 +1,9 @@
+.mat-card{
+    z-index: 1;
+}
 .blob-4 {
-   top: 80em;
-   left: 65em;
+   top: 50em;
+   left: 40em;
 }
 .product-grid{
     flex-wrap: wrap;
@@ -22,6 +25,7 @@
 }
 .grid-card:hover{
     transform: scale(1.05);
+    z-index: 2;
 }
 .grid-element-big{
     justify-content: center;

@@ -1,6 +1,9 @@
+.mat-card{
+	z-index: 1;
+}
 .blob-5 {
-   top: 125em;
-   left: 10em;
+   top: 120em;
+   left: 0em;
 }
 .technology-grid{
   margin-top: 3em;
@@ -12,7 +15,8 @@
 }
 .technology-element{
     order: 1;
-    transition: transform .5s ease;
+	transition: transform .5s ease;
+	z-index: 1;
 }
 .technology-element:hover{
   transform: scale(1.15);
