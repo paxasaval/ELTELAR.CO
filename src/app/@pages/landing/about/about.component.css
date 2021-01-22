@@ -19,20 +19,7 @@
     align-items: baseline;
     z-index: 1;
 }
-.element-img{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: baseline;
-}
-.element-img img{
-    height: 250px;
-    width: inherit;
-    margin-bottom: 1em;
-}
 .element-img h3{
-    justify-self: center;
     width: 50%;
     text-align: center;
 }
@@ -53,4 +40,139 @@
     padding-top: 0em;
     margin-bottom: 0em;
     margin-top: 0em;
+}
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+    .grid-element p {
+      font-size: 1.5em;
+      padding-left: 4em;
+      padding-right: 3em;
+    }
+    .element-img{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: baseline;
+    }
+    .element-img img {
+      height: 15rem;
+      width: inherit;
+      margin-bottom: 1em;
+    }
+}
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .grid-element p {
+      font-size: 1.3em;
+      padding-left: 3em;
+      padding-right: 3em;
+    }
+    .element-img{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: baseline;
+    }
+    .element-img img {
+      height: 15rem;
+      width: inherit;
+      margin-bottom: 1em;
+    }
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .grid-element p{
+    font-size: 1.1em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .element-img{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+  }
+  .element-img img{
+    height: 10rem;
+    width: inherit;
+    margin-bottom: 1em;
+  }
+  .element-img h3{
+    font-size: 1em;
+  }
+}
+/*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .main-grid {
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+  }
+  .grid-element{
+    width: auto;
+    padding-left: 4.5em;
+    padding-right: 4em;
+  }
+  .grid-element.grid-img.wrap-section{
+    width: 75%;
+  }
+  .element-img{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .element-img img{
+    height: 10rem;
+    width: inherit;
+    margin-bottom: 1em;
+  }
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .main-grid {
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+  }
+  .grid-element{
+    width: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .grid-element.grid-img.wrap-section{
+    width: 75%;
+  }
+  .element-img{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .element-img img{
+    height: 7rem;
+    width: inherit;
+    margin-bottom: 1em;
+  }
+  .element-img h3{
+    font-size: 0.9em;
+  }
 }

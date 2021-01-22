@@ -2,18 +2,9 @@
    top: 3m;
    left: 3em;
 }
-
-.grid-element img{
-    height: 400px;
-    display: flex;
-    overflow: hidden;
-    transition: transform .5s ease;
-    border-radius: 11%;
-    z-index: 1;
-}
-.grid-element p {
-  font-size: 1.3em;
-  text-align: justify;
+.grip-element img {
+  transition: transform .5s ease;
+  overflow: hidden;
 }
 img {
   -moz-box-shadow:    3px 3px 5px 6px #ccc;
@@ -22,5 +13,151 @@ img {
   overflow: hidden;
 }
 img:hover {
-transform: scale(1.05);
+  transform: scale(1.05);
 }
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  .grid-element img{
+      width: 80%;
+      display: flex;
+      overflow: hidden;
+      transition: transform .5s ease;
+      border-radius: 11%;
+      z-index: 1;
+      /*padding-left: 100px;*/
+  }
+  .grid-element p {
+    font-size: 1.5em;
+    text-align: justify;
+    padding-left: 4em;
+  }
+}
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .grid-element {
+    padding-right: 0em;
+  }
+  .grid-element img{
+      width: 85%;
+      display: flex;
+      overflow: hidden;
+      transition: transform .5s ease;
+      border-radius: 11%;
+      z-index: 1;
+      /*padding-left: 100px;*/
+  }
+  .grid-element p {
+      font-size: 1.3em;
+      padding-left: 2.5em;
+      padding-right: 3em;
+  }
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .grid-element img{
+      width: 90%;
+      display: flex;
+      overflow: hidden;
+      transition: transform .5s ease;
+      border-radius: 11%;
+      z-index: 1;
+  }
+  .grid-element p {
+      font-size: 1.1em;
+      padding-left: 2em;
+      padding-right: 2em;
+  }
+
+}
+/*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+      .grid-element {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+        padding-left: 5em;
+        padding-right: 4em;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+      }
+      .grid-element p {
+        height: inherit;
+        width: auto;
+        font-size: 1.15em;
+      }
+      .grid-element img{
+          align-self: center;
+          width: 100%;
+          height: 100%;
+          overflow: auto;
+          transition: transform .5s ease;
+          border-radius: 11%;
+          z-index: 1;
+      }
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .grid-element {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+  }
+  .grid-element img{
+      height: auto;
+      width: 100%;
+      transition: transform .5s ease;
+      border-radius: 11%;
+      z-index: 1;
+  }
+  .grid-element p {
+    font-size: 1.15em;
+  }
+}
+/* 2436x1125px at 458ppi iPhone X/XS/11 */
+@media only screen
+    and (device-width: 375px)
+    and (device-height: 812px)
+    and (-webkit-device-pixel-ratio: 3) {
+      .grid-element {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+      }
+      .grid-element p {
+        height: inherit;
+        width: 350px;
+        font-size: 1em;
+        width: auto;
+      }
+      .grid-element img{
+          height: auto;
+          width: 100%;
+          transition: transform .5s ease;
+          border-radius: 11%;
+          z-index: 1;
+      }
+    }

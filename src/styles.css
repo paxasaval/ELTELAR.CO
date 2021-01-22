@@ -1,12 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: 'Open Sans', sans-serif;background-color: #2da9dd;} 
+body { margin: 0; font-family: 'Open Sans', sans-serif;background-color: #2da9dd;}
 .blob {
    position: absolute;
    fill: #64C9A9;
    width: 55%;
-   z-index: 0; 
+   z-index: 0;
    transform-origin: 50% 50%;
 }
 .container{
@@ -33,9 +33,6 @@ body { margin: 0; font-family: 'Open Sans', sans-serif;background-color: #2da9dd
     padding-bottom: 2em;
     margin-bottom: 0em;
 }
-
-
-
 .grid-element-big p{
     padding-right: 3em;
     padding-left: 2em;
@@ -53,23 +50,10 @@ body { margin: 0; font-family: 'Open Sans', sans-serif;background-color: #2da9dd
     align-content: center;
     display: flex;
 }
-
-.grid-element-big{
-    margin-top: 4em;
-    width: 100%;
-    order:1;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    display: flex;
-}
-
 .grid-element-big p{
     text-align: justify;
 }
 
 .grid-element p{
-    padding-left: 4em;
-    padding-right: 4em;
     text-align: justify;
 }

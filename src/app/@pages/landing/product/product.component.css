@@ -1,27 +1,14 @@
-
 .blob-4 {
    top: 50em;
    left: 40em;
 }
 .product-grid{
-    flex-wrap: wrap;
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.grid-card{
-    width: 30%;
-    display: flex;
-    order: 2;
-    align-items: baseline;
-    margin-left: 3em;
-    margin-right: 3em;
-    margin-bottom: 3em;
-    transition: transform .5s ease;
-    z-index: 1;
-}
-.grid-card p {
-    font-size: 1.2em;
-}
+
 .grid-card:hover{
     transform: scale(1.05);
     z-index: 2;
@@ -30,10 +17,160 @@
     justify-content: center;
     margin-top: 0em;
     margin-bottom: 1em;
-    font-size: 1.3em;
+    width: 100%;
+    order:1;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
 }
-
-.mat-card-image{
-    width: 500px;
-    height: 250px;
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  .grid-element-big {
+    font-size: 1.5em;
+    padding-left: 2em;
+  }
+  .grid-card p{
+    width: auto;
+    font-size: 1.5em;
+    text-align: justify;
+  }
+  .grid-card{
+      width: 35%;
+      order: 2;
+      margin-left: 3em;
+      margin-right: 3em;
+      margin-bottom: 3em;
+      transition: transform .5s ease;
+      z-index: 1;
+  }
+  .mat-card-image{
+    height: inherit;
+  }
+  .mat-card-content {
+    box-sizing: content-box;
+  }
+}
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .grid-element-big {
+    font-size: 1.3em;
+    padding-left: 2em;
+  }
+  .grid-card p{
+    width: auto;
+    font-size: 1.3em;
+    text-align: justify;
+  }
+  .grid-card{
+      width: 35%;
+      order: 2;
+      margin-left: 3em;
+      margin-right: 3em;
+      margin-bottom: 3em;
+      transition: transform .5s ease;
+      z-index: 1;
+  }
+  .mat-card-image{
+    height: inherit;
+  }
+  .mat-card-content {
+    box-sizing: content-box;
+  }
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .grid-element-big {
+    font-size: 1.1em;
+    padding-left: 1em;
+  }
+  .grid-card p{
+    width: auto;
+    font-size: 1.3em;
+    text-align: justify;
+  }
+  .grid-card{
+      width: 35%;
+      order: 2;
+      margin-left: 3em;
+      margin-right: 3em;
+      margin-bottom: 3em;
+      transition: transform .5s ease;
+      z-index: 1;
+  }
+  .mat-card-image{
+    height: inherit;
+  }
+  .mat-card-content {
+    box-sizing: content-box;
+  }
+}
+/*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .grid-element-big {
+    font-size: 1.1em;
+    padding-left: 1em;
+  }
+  .grid-card p{
+    width: auto;
+    font-size: 1.3em;
+    text-align: justify;
+  }
+  .grid-card{
+      width: 75%;
+      order: 2;
+      margin-left: 3em;
+      margin-right: 3em;
+      margin-bottom: 3em;
+      transition: transform .5s ease;
+      z-index: 1;
+  }
+  .mat-card-image{
+    height: inherit;
+  }
+  .mat-card-content {
+    box-sizing: content-box;
+  }
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .grid-element-big {
+    font-size: 1.1em;
+    padding-left: 0.1em;
+  }
+  .grid-card p{
+    width: auto;
+    font-size: 1.3em;
+    text-align: justify;
+  }
+  .grid-card{
+      width: 75%;
+      order: 2;
+      margin-left: 3em;
+      margin-right: 3em;
+      margin-bottom: 3em;
+      transition: transform .5s ease;
+      z-index: 1;
+  }
+  .mat-card-image{
+    height: inherit;
+  }
+  .mat-card-content {
+    box-sizing: content-box;
+  }
 }
