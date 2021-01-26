@@ -1,15 +1,26 @@
 .blob-4 {
-   top: 50em;
-   left: 40em;
-   transform: translate(-50px, 0px);
+   top: 225%;
+   left: 65%;
+}
+.column-grid{
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: end;
+}
+.grid-card{
+  height: 20vh;
 }
 .product-grid{
+    order: 2;
     width: 100%;
+    height: 60vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+.products-description{
+  height: 10vh;
+}
 .grid-card:hover{
     transform: scale(1.05);
     z-index: 2;
@@ -52,7 +63,7 @@
       z-index: 1;
   }
   .mat-card-image{
-    height: inherit;
+    height: auto;
   }
   .mat-card-content {
     box-sizing: content-box;

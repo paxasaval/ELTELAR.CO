@@ -1,12 +1,16 @@
 .blob-2 {
-   top: 0em;
-   left: 40em;
+   top: 80vh;
+   left: 0em;
    transform: translate(-15px, 0px);
 }
 
 .blob-3{
-   top: 48em;
-   left: -1em;
+   top: 180%;
+   left: 45%;
+}
+.element-img{
+  height: 35vh;
+  margin-top: 3em;
 }
 .main-grid{
     margin-top: 0em;
@@ -15,7 +19,10 @@
     z-index: 1;
 }
 .grid-element p {
-  font-size: 1.15em;
+  font-size: 1.10em;
+}
+.p-large{
+  font-size: 0.80em;
 }
 .grid-img{
     align-items: baseline;
@@ -23,6 +30,7 @@
 }
 .element-img h3{
     width: 50%;
+    
     text-align: center;
 }
 .circular{
@@ -42,6 +50,7 @@
     padding-top: 0em;
     margin-bottom: 0em;
     margin-top: 0em;
+    height: 55%;
 }
 /*
   ##Device = Desktops

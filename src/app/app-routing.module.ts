@@ -10,11 +10,11 @@ import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/Home',
+    redirectTo: '/home',
     pathMatch: 'full'
   },
   {
-    path:'Home',
+    path:'home',
     component: LandingComponent
   },
 
