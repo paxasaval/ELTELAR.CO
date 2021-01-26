@@ -14,10 +14,6 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path:'home',
-    component: LandingComponent
-  },
-  {
     path:'Home',
     component: LandingComponent
   },

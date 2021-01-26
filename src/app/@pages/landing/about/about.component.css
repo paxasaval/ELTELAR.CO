@@ -1,7 +1,9 @@
 .blob-2 {
    top: 0em;
    left: 40em;
+   transform: translate(-15px, 0px);
 }
+
 .blob-3{
    top: 48em;
    left: -1em;
@@ -86,6 +88,9 @@
       width: inherit;
       margin-bottom: 1em;
     }
+    .blob-2{
+        transform: translate(-300px, 100px);
+    }
 }
 /*
   ##Device = Tablets, Ipads (portrait)
@@ -112,6 +117,9 @@
   .element-img h3{
     font-size: 1em;
   }
+      .blob-2{
+        transform: translate(-300px, 100px);
+    }
 }
 /*
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -142,12 +150,18 @@
     width: inherit;
     margin-bottom: 1em;
   }
+  .blob-2{
+      transform: translate(-400px, 200px);
+  }
 }
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 0px) and (max-width: 480px) {
+    .blob-2{
+      transform: translate(-600px, 300px);
+  }
   .main-grid {
     flex-direction: column;
     width: auto;
