@@ -44,7 +44,6 @@
 .circular:hover{
     transform: scale(1.50);
 }
-
 .wrap-section{
     padding-bottom: 0em;
     padding-top: 0em;
@@ -143,8 +142,7 @@
 @media (min-width: 481px) and (max-width: 767px) {
   .grid-element p {
     font-size: 1.2em;
-    padding-left: 3em;
-    padding-right: 3em;
+    text-align: justify;
   }
   .main-grid {
     flex-direction: column;
@@ -155,8 +153,8 @@
   }
   .grid-element{
     width: auto;
-    padding-left: 4.5em;
-    padding-right: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
   }
   .grid-element.grid-img.wrap-section{
     width: 75%;

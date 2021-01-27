@@ -139,9 +139,25 @@
     ##Screen = B/w 481px to 767px
 */
 @media (min-width: 481px) and (max-width: 767px) {
+  .main-grid{
+    height: 110%;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    padding-bottom: 0vh;
+    padding-top: 10vh;
+  }
   .grid-element-big {
     font-size: 1em;
     padding-left: 1em;
+  }
+  .product-grid {
+    height: 80%;
+  }
+  .grid-element-big p{
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: justify;
   }
   .grid-card p{
     width: auto;
@@ -149,11 +165,13 @@
     text-align: justify;
   }
   .grid-card{
-      width: 50%;
+      width: 60%;
+      height: 10vh;
       order: 2;
-      margin-left: 3em;
-      margin-right: 3em;
-      margin-bottom: 3em;
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 1em;
+      padding-bottom: 2em;
       transition: transform 1.25s ease;
       z-index: 1;
   }
