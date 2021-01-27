@@ -28,6 +28,6 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 })
 export class AppModule { 
   constructor(private library: FaIconLibrary){
-    library.addIcons(faInstagram)
+    library.addIcons(faInstagram);
   }
 }
