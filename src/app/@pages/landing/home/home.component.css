@@ -2,7 +2,10 @@
    top: 3em;
    left: 45%;
 }
-.grip-element img {
+.grid-element p{
+  padding-right: 2em;
+}
+.grid-element img {
   transition: transform .5s ease;
   overflow: hidden;
 }
@@ -30,9 +33,9 @@ img:hover {
       /*padding-left: 100px;*/
   }
   .grid-element p {
-    font-size: 1.5em;
-    text-align: justify;
-    padding-left: 4em;
+    font-size: 1.25em;
+    text-align: left;
+    padding-left: 5em;
   }
 }
 /*

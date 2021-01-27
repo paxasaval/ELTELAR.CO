@@ -1,4 +1,7 @@
 .banner-logo img{
+    margin-top: 5vh;
+    height: 20vh;
+    border-radius: 50%;
 }
 .navbar{
     display: flex;
@@ -6,6 +9,7 @@
     background-color: #ffffff;
     justify-content: space-evenly;
     height: 15vh;
+    box-shadow: 0 5px 5px -5px #333;
 }
 
 .fixed{

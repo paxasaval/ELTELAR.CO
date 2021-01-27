@@ -46,7 +46,7 @@
   }
   .grid-element-big {
     font-size: 1.5em;
-    padding-left: 2em;
+    padding-left: 0em;
   }
   .grid-card p{
     width: auto;

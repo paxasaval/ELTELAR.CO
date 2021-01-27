@@ -1,3 +1,77 @@
 .footer{
+    background-color: #516b86;
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    padding-top: 1em;
+    height: 1.25em;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    padding-left: 1em;
+    
+}
+.grid{
     background-color: #2da9dd;
+    display: flex;
+    flex-direction: row;
+}
+.location{
+    width: 35%;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5em;
+}
+.location div{
+    display: flex;
+    padding-left: 1em;
+}
+.location div p{
+    padding-left: 1em;
+}
+.follow{
+    order:2;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.follow-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0em;
+}
+
+.contact{
+    order: 3;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.contact-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0em;
+}
+
+.line{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.powered{
+    height: 5vh;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+.powered p{
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+}
+.powered p a{
+    text-decoration: none;
+    color: black;
 }
