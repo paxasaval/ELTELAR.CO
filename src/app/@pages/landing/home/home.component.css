@@ -48,7 +48,7 @@ img:hover {
       display: flex;
       overflow: hidden;
       transition: transform 1.25s ease;
-      border-radius: 11%;
+      border-radius: 20px;
       z-index: 1;
       /*padding-left: 100px;*/
   }
@@ -68,7 +68,7 @@ img:hover {
       display: flex;
       overflow: hidden;
       transition: transform 1.25s ease;
-      border-radius: 11%;
+      border-radius: 20px;
       z-index: 1;
   }
   .grid-element p {
@@ -104,7 +104,7 @@ img:hover {
           height: 100%;
           overflow: auto;
           transition: transform .5s ease;
-          border-radius: 11%;
+          border-radius: 20px;
           z-index: 1;
       }
 }
@@ -113,7 +113,11 @@ img:hover {
   ##Screen = B/w 320px to 479px
 */
 @media (min-width: 0px) and (max-width: 480px) {
+  .main-grid {
+    padding-top: 10vh;
+  }
   .grid-element {
+    margin-top: 0;
     display: flex;
     flex-direction: column;
     width: auto;
@@ -125,8 +129,8 @@ img:hover {
   .grid-element img{
       height: auto;
       width: 100%;
-      transition: transform .5s ease;
-      border-radius: 11%;
+      transition: transform 1.25s ease;
+      border-radius: 20px;
       z-index: 1;
   }
   .grid-element p {
