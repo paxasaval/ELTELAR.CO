@@ -1,0 +1,112 @@
+.banner-logo img{
+}
+.navbar{
+    display: flex;
+    align-content: center;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+    height: 15vh;
+}
+
+.fixed{
+    position: fixed;
+    z-index: 3;
+}
+.toogle{
+    display: none;
+}
+nav a.active{
+    background-color:#516B86;
+}
+.navbar nav{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.navbar a{
+    order:1;
+    width: auto;
+    scroll-behavior: smooth;
+    text-decoration: black;
+}
+.header-row{
+    align-content: center;
+    width: 100%;
+}
+@media (min-width: 1281px) {
+
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+/*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .navbar{
+        flex-direction: column;
+        justify-content: start;
+        height: 100%;
+    }
+    .item{
+        display: none;
+    }
+    .toogle{
+        order: 1;
+        display: block;
+        margin-top: 0.75em;
+        align-self: flex-end;
+    }
+    .item-active-sm{
+        display: block;
+    }
+    .toogle-active-sm{
+        align-self: center;
+    }
+    .banner-logo{
+        display: none;
+    }
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 0px) and (max-width: 480px) {
+    .navbar{
+        flex-direction: column;
+        justify-content: start;
+        height: 100%;
+    }
+    .item{
+        display: none;
+    }
+    .toogle{
+        order: 1;
+        display: block;
+        margin-top: 0.75em;
+        align-self: flex-end;
+    }
+    .item-active-sm{
+        display: block;
+    }
+    .toogle-active-sm{
+        align-self: center;
+    }
+    .banner-logo{
+        display: none;
+    }
+}
+
+
+
+
+

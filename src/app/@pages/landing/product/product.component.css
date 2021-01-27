@@ -1,4 +1,4 @@
-.blob-4 {
+..blob-4 {
    top: 225%;
    left: 65%;
 }
@@ -41,25 +41,27 @@
   ##Screen = 1281px to higher resolution desktops
 */
 @media (min-width: 1281px) {
+
   .blob-4{
     transform: translate(-300px,100px);
   }
   .grid-element-big {
-    font-size: 1.5em;
+    font-size: 1.4em;
     padding-left: 0em;
   }
   .grid-card p{
     width: auto;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: justify;
   }
   .grid-card{
-      width: 35%;
+      width: 30%;
       order: 2;
       margin-left: 3em;
       margin-right: 3em;
       margin-bottom: 3em;
-      transition: transform .5s ease;
+      padding-bottom: 5em;
+      transition: transform 1.25s ease;
       z-index: 1;
   }
   .mat-card-image{
@@ -74,8 +76,9 @@
   ##Screen = B/w 1025px to 1280px
 */
 @media (min-width: 1025px) and (max-width: 1280px) {
-    .blob-4{
+  .blob-4{
     transform: translate(-400px,200px);
+    left: 80%;
   }
   .grid-element-big {
     font-size: 1.3em;
