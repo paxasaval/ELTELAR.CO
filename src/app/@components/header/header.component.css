@@ -1,7 +1,8 @@
 .banner-logo img{
-    margin-top: 5vh;
-    height: 20vh;
+    display: flex;
+    height: 30VH;
     border-radius: 50%;
+    margin-top: 7vh;
 }
 .navbar{
     display: flex;
