@@ -36,7 +36,9 @@ nav a.active{
     width: 100%;
 }
 @media (min-width: 1281px) {
-
+  .mat-toolbar-row b{
+        font-size: 1.6em;
+    }
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
 
@@ -105,8 +107,3 @@ nav a.active{
         display: none;
     }
 }
-
-
-
-
-

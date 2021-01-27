@@ -3,13 +3,13 @@
    left: 45%;
 }
 .grip-element img {
-  transition: transform .5s ease;
+  transition: transform 1.25s ease;
   overflow: hidden;
 }
 img {
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;
+  -moz-box-shadow:    0 8px 6px -6px  black;
+  -webkit-box-shadow: 0 8px 6px -6px  black;
+  box-shadow:         0 8px 6px -6px  black;
   overflow: hidden;
 }
 img:hover {
@@ -24,8 +24,8 @@ img:hover {
       width: 80%;
       display: flex;
       overflow: hidden;
-      transition: transform .5s ease;
-      border-radius: 11%;
+      transition: transform 1.25s ease;
+      border-radius: 20px;
       z-index: 1;
       /*padding-left: 100px;*/
   }
@@ -47,7 +47,7 @@ img:hover {
       width: 85%;
       display: flex;
       overflow: hidden;
-      transition: transform .5s ease;
+      transition: transform 1.25s ease;
       border-radius: 11%;
       z-index: 1;
       /*padding-left: 100px;*/
@@ -67,7 +67,7 @@ img:hover {
       width: 90%;
       display: flex;
       overflow: hidden;
-      transition: transform .5s ease;
+      transition: transform 1.25s ease;
       border-radius: 11%;
       z-index: 1;
   }
