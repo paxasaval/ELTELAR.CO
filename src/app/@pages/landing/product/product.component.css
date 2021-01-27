@@ -1,6 +1,6 @@
-..blob-4 {
-   top: 225%;
-   left: 65%;
+.blob-4 {
+   top: 250vh;
+   left: 45vw;
 }
 .column-grid{
   flex-direction: column;
@@ -43,7 +43,8 @@
 @media (min-width: 1281px) {
 
   .blob-4{
-    transform: translate(-300px,100px);
+    /*transform: translate(-300px,100px);*/
+    left: 45vw;
   }
   .grid-element-big {
     font-size: 1.4em;
@@ -76,26 +77,23 @@
   ##Screen = B/w 1025px to 1280px
 */
 @media (min-width: 1025px) and (max-width: 1280px) {
-  .blob-4{
-    transform: translate(-400px,200px);
-    left: 80%;
-  }
   .grid-element-big {
     font-size: 1.3em;
     padding-left: 2em;
   }
   .grid-card p{
     width: auto;
-    font-size: 1.3em;
+    font-size: 1.1em;
     text-align: justify;
   }
   .grid-card{
-      width: 35%;
+      width: 30%;
       order: 2;
       margin-left: 3em;
       margin-right: 3em;
       margin-bottom: 3em;
-      transition: transform .5s ease;
+      padding-bottom: 4em;
+      transition: transform 1.25s ease;
       z-index: 1;
   }
   .mat-card-image{
@@ -110,25 +108,23 @@
   ##Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .blob-4{
-    transform: translate(-450px,300px);
-  }
   .grid-element-big {
     font-size: 1.1em;
     padding-left: 1em;
   }
   .grid-card p{
     width: auto;
-    font-size: 1.3em;
+    font-size: 1.1em;
     text-align: justify;
   }
   .grid-card{
-      width: 35%;
+      width: 30%;
       order: 2;
       margin-left: 3em;
       margin-right: 3em;
       margin-bottom: 3em;
-      transition: transform .5s ease;
+      padding-bottom: 3em;
+      transition: transform 1.25s ease;
       z-index: 1;
   }
   .mat-card-image{
@@ -143,25 +139,22 @@
     ##Screen = B/w 481px to 767px
 */
 @media (min-width: 481px) and (max-width: 767px) {
-    .blob-4{
-    transform: translate(-450px,300px);
-  }
   .grid-element-big {
-    font-size: 1.1em;
+    font-size: 1em;
     padding-left: 1em;
   }
   .grid-card p{
     width: auto;
-    font-size: 1.3em;
+    font-size: 1em;
     text-align: justify;
   }
   .grid-card{
-      width: 75%;
+      width: 50%;
       order: 2;
       margin-left: 3em;
       margin-right: 3em;
       margin-bottom: 3em;
-      transition: transform .5s ease;
+      transition: transform 1.25s ease;
       z-index: 1;
   }
   .mat-card-image{
@@ -176,7 +169,7 @@
   ##Screen = B/w 320px to 479px
 */
 @media (min-width: 0px) and (max-width: 480px) {
-    .blob-4{
+  .blob-4{
     transform: translate(-500px,100px);
   }
   .grid-element-big {
