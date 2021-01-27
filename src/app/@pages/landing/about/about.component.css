@@ -132,19 +132,26 @@
   .element-img h3{
     font-size: 1em;
   }
-      .blob-2{
-        transform: translate(-300px, 100px);
-    }
+  .blob-2{
+    transform: translate(-300px, 100px);
+  }
 }
 /*
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
 */
 @media (min-width: 481px) and (max-width: 767px) {
+  .grid-element p {
+    font-size: 1.2em;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
   .main-grid {
     flex-direction: column;
     width: auto;
     align-items: center;
+    height: 150vh;
+    padding-bottom: 0vh;
   }
   .grid-element{
     width: auto;
@@ -168,19 +175,31 @@
   .blob-2{
       transform: translate(-400px, 200px);
   }
+  .element-img h3{
+    font-size: 0.9em;
+  }
 }
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 @media (min-width: 0px) and (max-width: 480px) {
-    .blob-2{
+  .blob-2{
       transform: translate(-600px, 300px);
+  }
+  .grid-element p {
+    font-size: 1em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    text-align: justify;
+    height: auto;
   }
   .main-grid {
     flex-direction: column;
     width: auto;
     align-items: center;
+    height: 130vh;
+    padding-bottom: 0vh;
   }
   .grid-element{
     width: auto;
@@ -190,6 +209,9 @@
   .grid-element.grid-img.wrap-section{
     width: 75%;
   }
+  .grid-element.wrap-section.p-large{
+    margin-top: -50px;
+  }
   .element-img{
     width: 50%;
     display: flex;
@@ -197,8 +219,8 @@
     align-items: center;
   }
   .element-img img{
-    height: 7rem;
-    width: inherit;
+    height: 8rem;
+    width: 90%;
     margin-bottom: 1em;
   }
   .element-img h3{
