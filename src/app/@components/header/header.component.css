@@ -1,8 +1,8 @@
 .banner-logo img{
     display: flex;
-    height: 30VH;
+    height: 20VH;
     border-radius: 50%;
-    margin-top: 7vh;
+    margin-top: 5vh;
 }
 
 .navbar{
@@ -10,7 +10,7 @@
     align-content: center;
     background-color: #ffffff;
     justify-content: space-evenly;
-    height: 15vh;
+    height: 10vh;
     box-shadow: 0 5px 5px -5px #333;
 }
 .z-index{
@@ -43,25 +43,21 @@ nav a.active{
     align-content: center;
     width: 100%;
 }
-.mat-toolbar-row b:hover{
-        border-bottom: 3px solid black;
-        padding-left: 1em;
-        padding-right: 1em;
-}
+
 @media (min-width: 1281px) {
   .mat-toolbar-row b{
-        font-size: 1.6em;
+        font-size: 1.3em;
     }
     .mat-toolbar-row b:hover{
-        font-size: 1.65em;
+        font-size: 1.35em;
     }
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
   .mat-toolbar-row b{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
         .mat-toolbar-row b:hover{
-        font-size: 1.55em;
+        font-size: 1.25em;
     }
 }
 /*
