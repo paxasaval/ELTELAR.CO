@@ -4,6 +4,7 @@
     border-radius: 50%;
     margin-top: 7vh;
 }
+
 .navbar{
     display: flex;
     align-content: center;
@@ -12,10 +13,12 @@
     height: 15vh;
     box-shadow: 0 5px 5px -5px #333;
 }
-
+.z-index{
+    position: relative;
+    z-index: 3;
+}
 .fixed{
     position: fixed;
-    z-index: 5;
 }
 .toogle{
     display: none;
@@ -40,14 +43,25 @@ nav a.active{
     align-content: center;
     width: 100%;
 }
+.mat-toolbar-row b:hover{
+        border-bottom: 3px solid black;
+        padding-left: 1em;
+        padding-right: 1em;
+}
 @media (min-width: 1281px) {
   .mat-toolbar-row b{
         font-size: 1.6em;
+    }
+    .mat-toolbar-row b:hover{
+        font-size: 1.65em;
     }
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
   .mat-toolbar-row b{
         font-size: 1.5em;
+    }
+        .mat-toolbar-row b:hover{
+        font-size: 1.55em;
     }
 }
 /*
@@ -55,8 +69,12 @@ nav a.active{
   ##Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width: 1024px) {
-  .mat-toolbar-row b{
-        font-size: 1.4em;
+
+    .mat-toolbar-row b{
+        font-size: 1.1em;
+    }
+    .mat-toolbar-row b:hover{
+        font-size: 1.15em;
     }
 }
 /*
@@ -64,6 +82,12 @@ nav a.active{
     ##Screen = B/w 481px to 767px
 */
 @media (min-width: 481px) and (max-width: 767px) {
+    .mat-toolbar-row b{
+        font-size: 0.9em;
+    }
+    .mat-toolbar-row b:hover{
+        font-size: 0.95em;
+    }
     .navbar{
         flex-direction: column;
         justify-content: start;
@@ -83,6 +107,8 @@ nav a.active{
     }
     .toogle-active-sm{
         align-self: center;
+        transform: rotate(90deg);
+        margin-top: 0em;
     }
     .banner-logo{
         display: none;
@@ -93,6 +119,12 @@ nav a.active{
   ##Screen = B/w 320px to 479px
 */
 @media (min-width: 0px) and (max-width: 480px) {
+    .mat-toolbar-row b{
+        font-size: 0.8em;
+    }
+    .mat-toolbar-row b:hover{
+        font-size: 0.85em;
+    }
     .navbar{
         flex-direction: column;
         justify-content: start;
@@ -112,6 +144,8 @@ nav a.active{
     }
     .toogle-active-sm{
         align-self: center;
+        transform: rotate(90deg);
+        margin-top: 0em;
     }
     .banner-logo{
         display: none;
