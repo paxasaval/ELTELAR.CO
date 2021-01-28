@@ -42,7 +42,7 @@
     transition: transform 1.15s ease;
 }
 .circular:hover{
-    transform: scale(1.50);
+    transform: scale(1.10);
 }
 .wrap-section{
     padding-bottom: 0em;
