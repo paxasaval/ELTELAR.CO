@@ -83,7 +83,7 @@
 		height: 40px; width: 50px;
 	}
 	.technology-element img{
-		height: 15vw;
+		height: 15vh;
 	}
 	.grid-element-big p {
 		font-size: 1.5em;
@@ -124,9 +124,13 @@
 	.proces {
 		padding-left: 6rem;
 		margin-right: 3rem;
+		flex-direction: column;
 	}
 	.technology-grid {
 		height: 25vh;
+	}
+	.arrow{
+		transform: rotate(90deg);
 	}
 	.arrow-5{
 		height: 20px; width: 20px;
@@ -170,6 +174,12 @@
 	.technology-element img{
 		height: 40vw;
 	}
+	.arrow{
+		transform: rotate(90deg);
+	}
+	.proces{
+		flex-direction: column;
+	}
 }
 @media (min-width: 0px) and (max-width: 480px) {
 		.arrow-5{
@@ -185,7 +195,20 @@
 		height: 15px; width: 26px;
 	}
 	.technology-element img{
-		height: 60px;
-
+		height: 10vh;
 	}
+	.arrow{
+		transform: rotate(90deg);
+	}
+	.proces{
+		flex-direction: column;
+	}
+	.grid-element-big p{
+		padding-left: 0em;
+		padding-right: 0em;
+	}
+	.technology-element{
+     padding-right: 0em;
+	}
+
 }

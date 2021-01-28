@@ -56,8 +56,17 @@
   ##Screen = 1281px to higher resolution desktops
 */
 @media (min-width: 1281px) {
+  .about-grid{
+    height: 90vh;
+    padding-top: 18vh;
+    align-items: baseline;
+    align-content: baseline;
+  }
+  .align-center{
+    align-self: center;
+  }
     .grid-element p {
-      font-size: 1.25em;
+      font-size: 1.2em;
       padding-left: 4em;
       padding-right: 3em;
       text-align: justify;
@@ -79,6 +88,7 @@
     .blob-2{
       transform: translate(-300px, 100px);
     }
+    
 }
 /*
   ##Device = Laptops, Desktops
@@ -86,7 +96,7 @@
 */
 @media (min-width: 1025px) and (max-width: 1280px) {
     .grid-element p {
-      font-size: 1.3em;
+      font-size: 2em;
       padding-left: 3em;
       padding-right: 3em;
     }

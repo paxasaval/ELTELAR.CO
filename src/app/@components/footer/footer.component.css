@@ -2,6 +2,15 @@
     background-color: #516b86;
     display: flex;
     flex-direction: column;
+    height: 45vh;
+}
+
+.vl {
+    border-left: 6px solid #2a3944;
+    height: 80%;
+    padding-right: 2em;
+    order: 1;
+    margin-top: 1.5%;
 }
 .icon{
     padding-top: 1em;
@@ -17,13 +26,15 @@
     background-color: #64C9A9;
     display: flex;
     flex-direction: row;
+    height: 85%;
 }
 .location{
-    width: 35%;
+    width: 33%;
     order: 1;
     display: flex;
     flex-direction: column;
-    margin-top: 2.5em;
+    margin-top: 3%;
+    font-size: 1.3em;
 }
 .location div{
     display: flex;
@@ -32,23 +43,30 @@
 .location div p{
     padding-left: 1em;
 }
+.vl-1{
+    order: 2;
+}
 .follow{
-    order:2;
+    order:3;
     width: 30%;
     display: flex;
     flex-direction: column;
+    font-size: 1.3em;
 }
 .follow-list{
     display: flex;
     flex-direction: column;
     margin-top: 0em;
 }
-
+.vl-2{
+    order: 4;
+}
 .contact{
-    order: 3;
+    order: 5;
     width: 35%;
     display: flex;
     flex-direction: column;
+    font-size: 1.3em;
 }
 .contact-list{
     display: flex;
@@ -71,8 +89,31 @@
 .powered p{
     margin-top: 0.5em;
     margin-bottom: 0em;
+    font-size: 1.5em;
 }
 .powered p a{
     text-decoration: none;
     color: black;
+}
+@media (min-width: 0px) and (max-width: 480px) {
+    .location p{
+        font-size: 0.90em;
+    }
+    .location img{
+        align-items: center;
+    }
+    .line a{
+        display: flex;
+        font-size: 0.80em;
+    }
+    .powered p a span{
+        font-size: 0.80em;
+    }
+    .icon{
+        padding-top: 1.3em;
+    }
+
+    .footer{
+		height: 23vh;
+    }
 }

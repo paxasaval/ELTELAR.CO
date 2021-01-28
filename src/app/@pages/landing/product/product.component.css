@@ -41,14 +41,22 @@
   ##Screen = 1281px to higher resolution desktops
 */
 @media (min-width: 1281px) {
-
+  .grid-products{
+    height: 100vh;
+  }
   .blob-4{
     /*transform: translate(-300px,100px);*/
     left: 45vw;
   }
   .grid-element-big {
-    font-size: 1.4em;
-    padding-left: 0em;
+    font-size: 1.1em;
+    margin-top: 6em;
+    margin-bottom: 3em;
+  }
+  .grid-element-big p{
+    margin-top: 3em;
+    padding-left: 10em;
+    padding-right: 10em;
   }
   .grid-card p{
     width: auto;
@@ -56,17 +64,21 @@
     text-align: justify;
   }
   .grid-card{
-      width: 30%;
+      width: 20%;
       order: 2;
-      margin-left: 3em;
-      margin-right: 3em;
-      margin-bottom: 3em;
-      padding-bottom: 5em;
+      margin-left: 1em;
+      margin-right: 12em;
+      margin-bottom: 0em;
+      padding-bottom: 0em;
       transition: transform 1.25s ease;
       z-index: 1;
   }
+  .mat-card{
+    width: 150%;
+    height: 25vh;
+  }
   .mat-card-image{
-    height: auto;
+    height: 65%;
   }
   .mat-card-content {
     box-sizing: content-box;
@@ -78,8 +90,9 @@
 */
 @media (min-width: 1025px) and (max-width: 1280px) {
   .grid-element-big {
-    font-size: 1.3em;
+    font-size: 1.2em;
     padding-left: 2em;
+    padding-bottom: 2em;
   }
   .grid-card p{
     width: auto;
