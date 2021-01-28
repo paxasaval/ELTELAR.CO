@@ -89,7 +89,7 @@ img:hover {
 */
 @media (min-width: 481px) and (max-width: 767px) {
       .main-grid {
-        height: 90vh;
+        height: 65vh;
         padding-top: 0vh;
       }
       .grid-element {
@@ -105,7 +105,7 @@ img:hover {
       .grid-element p {
         height: inherit;
         width: auto;
-        font-size: 1.4em;
+        font-size: 1.2em;
         text-align: justify;
       }
       .grid-element img{
@@ -116,7 +116,7 @@ img:hover {
           transition: transform 1.25s ease;
           border-radius: 20px;
           z-index: 1;
-          margin-top: -10em;
+          margin-top: -2em;
       }
 }
 /*

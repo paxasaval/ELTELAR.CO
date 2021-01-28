@@ -51,6 +51,10 @@
     margin-top: 0em;
     height: auto;
 }
+.about-grid{
+  margin-top: 2em;
+  padding-top: 15vh;
+}
 /*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -96,9 +100,10 @@
 */
 @media (min-width: 1025px) and (max-width: 1280px) {
     .grid-element p {
-      font-size: 2em;
+      font-size: 1.2em;
       padding-left: 3em;
       padding-right: 3em;
+      text-align: justify;
     }
     .element-img{
       width: 50%;
@@ -158,9 +163,10 @@
     flex-direction: column;
     width: auto;
     align-items: center;
-    height: 160vh;
+    height: 185vh;
     padding-bottom: 0vh;
     margin-top: 40vh;
+    padding-top: 0vh;
   }
   .grid-element{
     width: auto;
