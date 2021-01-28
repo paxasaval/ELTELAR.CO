@@ -179,7 +179,7 @@
 		height: 50%;
 	}
 	.grid-technology{
-		height: 160vh;
+		height: 115vh;
 	}
 
 	.proces{
@@ -190,6 +190,7 @@
 	.grid-element-big p{
 		padding-left: 1em;
 		padding-right: 1em;
+		text-align: justify;
 	}
 	.technology-element{
 		height: 20%;

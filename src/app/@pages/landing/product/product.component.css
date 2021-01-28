@@ -153,7 +153,7 @@
 */
 @media (min-width: 481px) and (max-width: 767px) {
   .main-grid{
-    height: 110%;
+    height: 150%;
     flex-direction: column;
     width: auto;
     align-items: center;
@@ -161,7 +161,7 @@
     padding-top: 10vh;
   }
   .grid-element-big {
-    font-size: 1em;
+    font-size: 1.2em;
     padding-left: 1em;
   }
   .product-grid {
@@ -178,13 +178,14 @@
     text-align: justify;
   }
   .grid-card{
-      width: 60%;
-      height: 10vh;
+      width: 70%;
+      height: 25vh;
       order: 2;
       margin-left: 1em;
       margin-right: 1em;
       margin-bottom: 1em;
-      padding-bottom: 2em;
+      padding-bottom: 1.5em;
+      padding-top: 1em;
       transition: transform 1.25s ease;
       z-index: 1;
   }
@@ -203,22 +204,41 @@
   .blob-4{
     transform: translate(-500px,100px);
   }
+  .main-grid{
+    height: 150%;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    padding-bottom: 0vh;
+    padding-top: 10vh;
+  }
   .grid-element-big {
-    font-size: 1.1em;
-    padding-left: 0.1em;
+    font-size: 1.2em;
+    padding-left: 1em;
+  }
+  .product-grid {
+    height: 80%;
+  }
+  .grid-element-big p{
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: justify;
   }
   .grid-card p{
     width: auto;
-    font-size: 1.3em;
+    font-size: 1em;
     text-align: justify;
   }
   .grid-card{
-      width: 75%;
+      width: 70%;
+      height: 25vh;
       order: 2;
-      margin-left: 3em;
-      margin-right: 3em;
-      margin-bottom: 3em;
-      transition: transform .5s ease;
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 1em;
+      padding-bottom: 1em;
+      padding-top: 1em;
+      transition: transform 1.25s ease;
       z-index: 1;
   }
   .mat-card-image{

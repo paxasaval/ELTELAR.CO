@@ -88,7 +88,7 @@
     .blob-2{
       transform: translate(-300px, 100px);
     }
-    
+
 }
 /*
   ##Device = Laptops, Desktops
@@ -151,29 +151,37 @@
 */
 @media (min-width: 481px) and (max-width: 767px) {
   .grid-element p {
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-align: justify;
   }
   .main-grid {
     flex-direction: column;
     width: auto;
     align-items: center;
-    height: 150vh;
+    height: 160vh;
     padding-bottom: 0vh;
+    margin-top: 40vh;
   }
   .grid-element{
     width: auto;
     padding-left: 2em;
     padding-right: 2em;
+    margin-top: 7.5vh;
   }
   .grid-element.grid-img.wrap-section{
     width: 75%;
+  }
+  .grid-element.wrap-section.p-large.align-center{
+    margin-top: 0vh;
   }
   .element-img{
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .p-large {
+    font-size: 0.9em;
   }
   .element-img img{
     height: 10rem;
