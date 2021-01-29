@@ -169,7 +169,7 @@
     .vl{
         height: 1em;
         border-left: 0;
-        border-bottom: 3px solid #2a3944;
+        border-bottom: 2px solid #2a3944;
         width: 80%;
         align-self: center;
         margin-bottom: 1.5em;
@@ -247,7 +247,7 @@
     .vl{
         height: 1em;
         border-left: 0;
-        border-bottom: 3px solid #2a3944;
+        border-bottom: 2px solid #2a3944;
         width: 80%;
         align-self: center;
     }
