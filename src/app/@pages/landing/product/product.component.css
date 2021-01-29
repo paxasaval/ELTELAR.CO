@@ -42,7 +42,7 @@
 */
 @media (min-width: 1281px) {
   .grid-products{
-    height: 90vh;
+    height: 110vh;
     padding-top: 2vh;
   }
   .blob-4{
@@ -50,7 +50,7 @@
     left: 45vw;
   }
   .grid-element-big {
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-top: 6em;
     margin-bottom: 3em;
   }

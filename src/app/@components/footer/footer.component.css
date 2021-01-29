@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     height: 45vh;
+    box-shadow: -2px 0px 5px 1px #333
 }
 .vl {
     border-left: 6px solid #2a3944;
@@ -36,11 +37,8 @@
     font-size: 1.3em;
     color: #f8f8f8;
 }
-.location div{
-    display: flex;
-    padding-left: 1em;
-}
-.location div p{
+
+.line p{
     padding-left: 1em;
 }
 .vl-1{
@@ -94,12 +92,14 @@
 }
 .powered p a{
     text-decoration: none;
-    color: #f8f8f8;
+    color: black;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     h3{
         font-size: 1em;
+        text-align: center;
     }
+    
     .location p{
         font-size: 0.8em;
     }
@@ -109,6 +109,11 @@
     .line a{
         display: flex;
         font-size: 0.8em;
+    }
+    .line p{
+        display: flex;
+        font-size: 0.8em;
+        margin-bottom: 0em;
     }
     .vl{
         margin-top: 2.5%;
@@ -130,6 +135,35 @@
     }
 }
 @media (min-width: 481px) and (max-width: 767px) {
+
+    h3{
+        font-size: 0.9em;
+        text-align: center;
+    }
+    .grid{
+        height: 93%;
+        flex-direction: column;
+    }
+    .powered{
+        height: 5%;
+        padding-top: 0.1em;
+    }
+    .vl{
+        height: 1em;
+        border-left: 0;
+        border-bottom: 3px solid #2a3944;
+        width: 80%;
+        align-self: center;
+    }
+    .location{
+        width: 45%;
+    }
+    .follow{
+        width: 45%;
+    }
+    .contact{
+        width: 45%;
+    }
     h3{
         font-size: 0.9em;
     }
@@ -139,9 +173,17 @@
     .location img{
         align-items: center;
     }
+    .line{
+        padding-left: 2em;
+    }
     .line a{
         display: flex;
         font-size: 0.6em;
+    }
+        .line p{
+        display: flex;
+        font-size: 0.6em;
+        margin-bottom: 0em;
     }
     .vl{
         margin-top: 2%;
@@ -163,39 +205,81 @@
         margin-bottom: 0em;
     }
     .footer{
-		height: 25vh;
+		height: 66vh;
     }
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
+   h3{
+        font-size: 0.9em;
+        text-align: center;
+    }
+    .grid{
+        height: 93%;
+        flex-direction: column;
+    }
+    .powered{
+        height: 5%;
+        padding-top: 0.1em;
+        font-size: 0.8em;
+    }
+    .vl{
+        height: 1em;
+        border-left: 0;
+        border-bottom: 3px solid #2a3944;
+        width: 80%;
+        align-self: center;
+    }
+    .location{
+        width: 45%;
+    }
+    .follow{
+        width: 45%;
+    }
+    .contact{
+        width: 45%;
+    }
     h3{
         font-size: 0.9em;
     }
     .location p{
-        font-size: 0.6em;
+        font-size: 0.45em;
     }
     .location img{
         align-items: center;
     }
+    .line{
+        padding-left: 2em;
+    }
     .line a{
         display: flex;
-        font-size: 0.60em;
+        font-size: 0.6em;
+    }
+        .line p{
+        display: flex;
+        font-size: 0.6em;
+        margin-bottom: 0em;
     }
     .vl{
+        margin-top: 2%;
         padding-right: 1em;
     }
+
     .powered p a span{
         margin-top: 0em;
         font-size: 0.60em;
     }
+    .powered p{
+        margin-top: 0.1em;
+    }
     .icon{
-        padding-top: 1.3em;
+        padding-top: 0.5em;
         height: 0.9em;
     }
     h3{
         margin-bottom: 0em;
     }
     .footer{
-		height: 35vh;
+		height: 62vh;
     }
 }

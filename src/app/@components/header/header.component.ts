@@ -23,6 +23,7 @@ export class HeaderComponent implements OnInit {
         clases.item(i).classList.remove("item-active-sm")
       }
       toogle.classList.remove("toogle-active-sm")
+      document.getElementById("banner-logo").classList.remove("banner-logo-active-sm")
     }
     document.getElementById("home").scrollIntoView({ behavior: "smooth" });
   }
@@ -35,6 +36,7 @@ export class HeaderComponent implements OnInit {
         clases.item(i).classList.remove("item-active-sm")
       }
       toogle.classList.remove("toogle-active-sm")
+      document.getElementById("banner-logo").classList.remove("banner-logo-active-sm")
     }
     document.getElementById("about").scrollIntoView({ behavior: "smooth" });
   }
@@ -47,6 +49,7 @@ export class HeaderComponent implements OnInit {
         clases.item(i).classList.remove("item-active-sm")
       }
       toogle.classList.remove("toogle-active-sm")
+      document.getElementById("banner-logo").classList.remove("banner-logo-active-sm")
     }
     document.getElementById("products").scrollIntoView({ behavior: "smooth" });
   }
@@ -59,6 +62,7 @@ export class HeaderComponent implements OnInit {
         clases.item(i).classList.remove("item-active-sm")
       }
       toogle.classList.remove("toogle-active-sm")
+      document.getElementById("banner-logo").classList.remove("banner-logo-active-sm")
     }
     document.getElementById("technology").scrollIntoView({ behavior: "smooth" });
   }
@@ -70,9 +74,9 @@ export class HeaderComponent implements OnInit {
       //document.getElementById("navbar").classList.remove("fixed")
       for (let i=0; i<n; i++){
         clases.item(i).classList.add("item-active-sm")
-      } 
+      }
       toogle.classList.add("toogle-active-sm")
-
+      document.getElementById("banner-logo").classList.add("banner-logo-active-sm")
     }else{
       let clases = document.getElementsByClassName("item")
       document.getElementById("navbar").classList.add("fixed")
@@ -80,6 +84,8 @@ export class HeaderComponent implements OnInit {
         clases.item(i).classList.remove("item-active-sm")
       }
       toogle.classList.remove("toogle-active-sm")
+      document.getElementById("banner-logo").classList.remove("banner-logo-active-sm")
     }
+    
   }
 }

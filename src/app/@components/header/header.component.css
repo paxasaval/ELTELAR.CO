@@ -107,7 +107,30 @@ nav a.active{
         margin-top: 0em;
     }
     .banner-logo{
-        display: none;
+        display: block;
+        position: relative;
+        top: -2.4em;
+        left: -0%;
+        right: 0em;
+        bottom: 0em;
+        height: 0vh;
+    }
+    .banner-logo img{
+        display: flex;
+        height: 14VH;
+        border-radius: 50%;
+        margin-top: 5vh;
+        position: relative;
+        bottom: 100%;
+    }
+    .banner-logo-active-sm img{
+        display: flex;
+        height: 25VH;
+        border-radius: 50%;
+        margin-top: -1vh;
+        position: relative;
+        bottom: 100%;
+        left: -64%;
     }
 }
 /*
@@ -149,6 +172,29 @@ nav a.active{
         margin-top: 0em;
     }
     .banner-logo{
-        display: none;
+        display: block;
+        position: relative;
+        top: -2.4em;
+        left: -42%;
+        right: 0em;
+        bottom: 0em;
+        height: 0vh;
+    }
+    .banner-logo img{
+        display: flex;
+        height: 14VH;
+        border-radius: 50%;
+        margin-top: 5vh;
+        position: relative;
+        bottom: 100%;
+    }
+    .banner-logo-active-sm img{
+        display: flex;
+        height: 18VH;
+        border-radius: 50%;
+        margin-top: 10vh;
+        position: relative;
+        bottom: 100%;
+        left: 15%;
     }
 }
