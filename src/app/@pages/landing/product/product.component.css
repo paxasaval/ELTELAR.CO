@@ -155,7 +155,7 @@
 */
 @media (min-width: 481px) and (max-width: 767px) {
   .main-grid{
-    height: 175vh;
+    height: 230vh;
     flex-direction: column;
     width: auto;
     align-items: center;
